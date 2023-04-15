@@ -1,0 +1,21 @@
+!! Base16 Atelier Dune
+*.color0: #20201d
+*.color1: #6e6b5e
+*.color2: #7d7a68
+*.color3: #999580
+*.color4: #a6a28c
+*.color5: #e8e4cf
+*.color6: #fefbec
+*.color7: #d73737
+*.color8: #b65611
+*.color9: #cfb017
+*.color10: #60ac39
+*.color11: #1fad83
+*.color12: #d43552
+*.color13: #b854d4
+*.color14: #6684e1
+*.color15: #fefbec
+
+*.background: #000000
+*.font:	Liberation Mono:pixelsize=30:antialias=true:autohint=true;
+*.alpha: 0.6
