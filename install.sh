@@ -8,10 +8,10 @@ git clone https://git.suckless.org/slstatus
 git clone https://github.com/LukeSmithxyz/st
 tar -zxvf dwm-6.4.tar.gz
 tar -zxvf dmenu-5.2.tar.gz
-cp ../dwm/config.h dwm-6.4/
-cp ../dmenu/config.h dmenu-5.2/
-cp ../slstatus/config.h slstatus/
-cp ../st/config.h st/
+sudo cp ../configs/dwm/config.h dwm-6.4/
+sudo cp ../configs/dmenu/config.h dmenu-5.2/
+sudo cp ../configs/slstatus/config.h slstatus/
+sudo cp ../configs/st/config.h st/
 cd dwm-6.4/
 make clean && sudo make install
 cd ..
@@ -29,7 +29,7 @@ read agree
 if [ "$agree" = "y" ]; then
     cp .Xresources ~/
 fi
-echo "Copy .Xresources to home directory? [y/n]"
+echo "Copy .xinitrc to home directory? [y/n]"
 read agree
 if [ "$agree" = "y" ]; then
     cp .xinitrc ~/
