@@ -23,4 +23,4 @@ Just run following commands:
 + compositor such as picom required for transparency
 
 ### screenshot
-![screenshot](https://raw.githubusercontent.com/theKapcioszek/my-dwm-config/master/screenshots/Screenshot_archlinux_2023-04-15png.png)
+![screenshot](https://raw.githubusercontent.com/theKapcioszek/my-dwm-config/master/screenshots/2023-04-23_14-50.png)
