@@ -64,8 +64,8 @@ static const Layout layouts[] = {
 static const char *dmenucmd[] = { "dmenu_run"};
 static const char *termcmd[]  = { "st", NULL };
 static const char *firefoxcmd[] = { "firefox" };
-static const char *pamixerupcmd[] = { "pamixer -i 10", NULL };
-static const char *pamixerdowncmd[] = { "pamixer -d 10", NULL };
+static const char *pamixerupcmd[] = { "pamixer", "-i", "10", NULL };
+static const char *pamixerdowncmd[] = { "pamixer", "-d", "10", NULL };
 
 static const Key keys[] = {
 	/* modifier                     key        function        argument */
